@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "title": "kkkkkkk",
+      "content": "sssssssssss",
+      "id": 1
+    },
+    {
+      "title": "sssssss",
+      "content": "hhhhhhhhh",
+      "id": 2
+    },
+    {
+      "title": "sssssss",
+      "content": "hhhhhhhhh",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "postId": 2,
+      "content": "sssssssssss",
+      "id": 4
+    },
+    {
+      "postId": 1,
+      "content": "hhhhhhhhh",
+      "id": 5
+    },
+    {
+      "postId": 1,
+      "content": "hhhhhhhhh",
+      "id": 6
+    },
+    {
+      "postId": 1,
+      "content": "sssssssssss",
+      "id": 7
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

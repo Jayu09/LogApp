@@ -1,0 +1,127 @@
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 2px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.menu-bar{
+max-width : 15px;
+}
+
+.a {
+  position: fixed;
+  margin: 2px;
+  background-color:#D6DBDF;
+  width:95%;
+  height: 95%;
+  border: 1.5px solid #2E4053;
+}
+
+.b {
+  position: absolute;
+  right: 5px;
+  top:5px;
+  overflow-y:scroll;
+  width:82% ;
+  height: 90%;
+  background-color:#F0F3F4;
+  border:1.5px solid #2E4053;
+} 
+
+.c {
+  position: absolute;
+  top:5px;
+  left: 5px;  
+  width: 16%;
+  height: 50%;
+  background-color:#F0F3F4;
+  border: 1.5px solid #2E4053;
+} 
+.b1{
+  position: relative;
+  background-color: cadetblue;
+  width:90%;
+  height :50px;
+  padding: 5%;
+  margin: 5%;
+}
+.b1:active{
+  background-color: aqua;
+}
+
+.postlist{
+  position: relative;
+    overflow: hidden;
+    width: 80%;
+    left : 5px;
+}
+
+.fs{
+  width: 60%;
+
+}
+
+.hp{
+  position: relative;
+  width: 60%;
+  align-items: center;  
+}
+
+.comment-btn{
+  position: relative;
+  width: 20%;
+  height: 30%;
+}
+
+.comment-content{
+  position: relative;
+  width: 80%;
+  height: 30%;
+}
+
+.comment{
+  position: relative;
+  width: 70%;
+  height: 30%;
+  margin-top: 5%;
+}
+.commentlist{
+  position:relative;
+  height:  18%;
+  right: 5px;
+  overflow: hidden;
+}
