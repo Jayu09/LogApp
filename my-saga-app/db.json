@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "ssssssss",
+      "author": "typicode",
+      "content": "aaaaaaaaaaa"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "postId": 1,
+      "content": "sssssssssss",
+      "id": 2
+    },
+    {
+      "postId": 1,
+      "content": "sssssssssss",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
